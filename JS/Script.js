@@ -12,9 +12,11 @@ function updateClock(){
     let ampm="AM";
 
 
-    if(h > 12){
-        h= h - 12;
-        ampm = "PM";
+     if (h > 12) {
+        h = h - 12; //this line is for time-formate set by taking 12h rather than 24h
+        /*ampm = "PM";*/
+        document.getElementById("ampm").innerText="PM";
+       
     }
 
     h = h < 10 ? "0" + h : h;
