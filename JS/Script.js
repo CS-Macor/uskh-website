@@ -17,10 +17,20 @@ function updateClock(){
         /*ampm = "PM";*/
         document.getElementById("ampm").innerText="PM";
         document.getElementById("ampm").style.color="white";
-    
+        
+        document.getElementById("hour").style.color="white";
+        document.getElementById("minutes").style.color="white";
+        document.getElementById("second").style.color="white";
+
+        document.querySelector(".text1").style.color="white";
+        document.querySelector(".text2").style.color="white";
+        document.querySelector(".text3").style.color="white";
+
+    }
+  
     else{
-       document.getElementById("ampm").innerText="AM"; 
-       document.getElementById("ampm").style.BackgroundColor="black";
+        document.getElementById("ampm").innerText="AM";
+        document.getElementById("ampm").style.backgroundColor="black";
 
     }
 
