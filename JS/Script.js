@@ -18,6 +18,10 @@ function updateClock(){
         document.getElementById("ampm").innerText="PM";
        
     }
+    else{
+       document.getElementById("ampm").innerText="AM"; 
+
+    }
 
     h = h < 10 ? "0" + h : h;
     m = m < 10 ? "0" + m : m;
