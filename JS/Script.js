@@ -16,6 +16,7 @@ function updateClock(){
         h = h - 12; //this line is for time-formate set by taking 12h rather than 24h
         /*ampm = "PM";*/
         document.getElementById("ampm").innerText="PM";
+         document.getElementById("ampm").style.color="white";
        
     }
     else{
