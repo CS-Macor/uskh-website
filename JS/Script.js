@@ -18,7 +18,16 @@ function updateClock(){
         document.getElementById("ampm").innerText="PM";
         document.getElementById("ampm").style.color="white";
        
-    }
+    }if else(h=19){
+         document.getElementById("ampm").style.color="white";
+         document.getElementById("ampm").style.color="white";
+         document.getElementById("ampm").style.color="white";
+         document.getElementById("hour").style.color="white";
+         document.getElementById("minutes").style.color="white";
+         document.getElementById("second").style.color="white";
+         document.getElementById("ampm").style.color="white";
+
+     }
     else{
        document.getElementById("ampm").innerText="AM"; 
        document.getElementById("ampm").style.BackgroundColor="black";
