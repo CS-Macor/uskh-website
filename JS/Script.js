@@ -21,7 +21,7 @@ function updateClock(){
     }
     else{
        document.getElementById("ampm").innerText="AM"; 
-       document.getElementById("ampm").style.color="black";
+       document.getElementById("ampm").style.BackgroundColor="black";
 
     }
 
