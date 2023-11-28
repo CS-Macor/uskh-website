@@ -19,7 +19,7 @@ function updateClock(){
        
     }
     else{
-       /*document.getElementById("ampm").innerText="AM"; */
+       document.getElementById("ampm").innerText="AM"; 
 
     }
 
