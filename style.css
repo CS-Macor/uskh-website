@@ -46,7 +46,11 @@ h2{
     display: flex;
     position: relative;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+
+    background: url(https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+    background-size:cover;
+    
    
 }
 .clock div{
