@@ -19,6 +19,11 @@ body {
     
    
 }
+.clock div{
+    margin: 2px;    
+   
+   
+}
 .flag{
     display: flex;
     position: relative;
@@ -31,7 +36,6 @@ body {
     margin: 5px 5px;
 
 }
-
 h2{
     text-transform: uppercase;
     color: rgb(255, 153, 0);
