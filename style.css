@@ -1,6 +1,10 @@
-body {
+*{
     margin: 0;
-    padding: 0;
+    padding: 0; 
+}
+
+body {
+   
     box-sizing: border-box;
     /* background-color: Gray; */
     /* font-family: 'Content', cursive; */
