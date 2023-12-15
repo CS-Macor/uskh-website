@@ -58,7 +58,7 @@ h2{
    
 }
 .clock:hover{
-    color: red;
+    background: red;
 }
 .clock div{
     margin: 5px;
