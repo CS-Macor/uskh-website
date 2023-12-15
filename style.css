@@ -9,6 +9,12 @@ body {
    
 
 }
+.top-bg{
+    background: url(https://images.unsplash.com/photo-1581881067989-7e3eaf45f4f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+    background-size:cover;
+    
+   
+}
 
 h2{
     text-transform: uppercase;
