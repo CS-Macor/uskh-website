@@ -62,7 +62,7 @@ h2{
     margin: 5px;
     
 }
-.clock div a{
+.clock li a{
     text-decoration: none;
     list-style-type: none;
     
