@@ -10,7 +10,9 @@ body {
     /* font-family: 'Content', cursive; */
     font-family: sans-serif;
     background-size: cover;
-   
+
+      text-decoration: none;
+    list-style-type: none;
 
 }
 .top-bg{
