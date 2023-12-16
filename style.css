@@ -116,6 +116,33 @@ h2{
    
 
 }
+.content {
+    position: absolute;
+    /* background: rgba(0, 0, 0, 0.6); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    opacity: 0; /*  hide content */
+    
+    transition: 0.6;
+
+}
+.content:hover{
+    opacity: 1;
+}
+.content p{
+    font-size: 20px;
+    color:white
+}
+.content > *{
+    transform: translateY(50px);
+
+}
+.content:hover > *{
+    transform: translateY(5px);
+}
 
 
 .header-container {
