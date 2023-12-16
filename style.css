@@ -116,6 +116,7 @@ h2{
    
 
 }
+/* hover to show click to analog clock */
 .content {
     position: absolute;
     /* background: rgba(0, 0, 0, 0.6); */
@@ -144,7 +145,7 @@ h2{
     transform: translateY(5px);
 }
 
-
+/*header container*/
 
 .header-container {
     width: 100%;
