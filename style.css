@@ -60,6 +60,8 @@ h2{
 
 .clock div{
     margin: 5px;
+     text-decoration: none;
+    list-style-type: none;
     
 }
 
@@ -76,8 +78,7 @@ h2{
     font-weight: bold;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
     border-radius: 50px;
-    text-decoration: none;
-    list-style-type: none;
+   
 }
 .clock  .text1 {
     height: 30px;
