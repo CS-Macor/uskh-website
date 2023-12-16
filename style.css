@@ -56,15 +56,9 @@ h2{
     background: url(https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
     background-size:cover;
     
-     text-decoration: none;
-    list-style-type: none;
+    
 }
 
-.clock div{
-    margin: 5px;
-    
-    
-}
 
 .clock span{
     width: 100px;
@@ -89,9 +83,7 @@ h2{
     background-color: #0044ff;
     opacity: .8;
 
-     text-decoration: none;
-    list-style-type: none;
-    
+   
 }
 .clock  .text2 {
     height: 30px;
@@ -101,9 +93,7 @@ h2{
     background-color: #0044ff;
     opacity: .8;
 
-     text-decoration: none;
-    list-style-type: none;
-
+    
 }
 .clock  .text3 {
     height: 30px;
@@ -113,8 +103,7 @@ h2{
     background-color: #0044ff;
     opacity: .8;
 
-     text-decoration: none;
-    list-style-type: none;
+   
 
 }
 .clock #ampm{
