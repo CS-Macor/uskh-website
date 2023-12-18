@@ -26,7 +26,7 @@ function updateClock(){
         document.querySelector(".text1").style.color="white";
         document.querySelector(".text2").style.color="white";
         document.querySelector(".text3").style.color="white";
-        document.querySelector(".content p").style.color="rgb(255, 153, 0)";
+        document.querySelector(".content p").style.color= "red"; /*"rgb(255, 153, 0)";*/
 
     }
   
