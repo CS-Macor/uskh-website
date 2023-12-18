@@ -145,6 +145,35 @@ h2{
     transform: translateY(5px);
 }
 
+/* hover on logo to show to Home Page */
+.content-logo{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    opacity: 0; /*hide text content */
+    transition: 0.6; 
+    cursor: pointer;
+}
+.content-logo p{
+    font-size: 18px;
+    color: white;
+
+}
+.content-logo:hover{
+    opacity:1;/*show text content back*/
+}
+.content-logo > *{
+    transform: translateY(25px);
+    transition: transform 0.6s;
+
+}
+.content-logo:hover > *{
+    transform: translateY(0px);
+}
+
 /*header container*/
 
 .header-container {
