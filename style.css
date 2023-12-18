@@ -155,7 +155,7 @@ h2{
 
     opacity: 0; /*hide text content */
     transition: 0.6; 
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 .content-logo p{
     font-size: 18px;
