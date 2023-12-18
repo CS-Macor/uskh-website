@@ -145,7 +145,7 @@ h2{
     transform: translateY(5px);
 }
 
-/* hover on logo to show to Home Page */
+/* hover on logo to show to Home Page 
 .content-logo{
     position: absolute;
     display: flex;
@@ -172,7 +172,7 @@ h2{
 }
 .content-logo:hover > *{
     transform: translateY(0px);
-}
+}*/
 
 /*header container*/
 
