@@ -13,7 +13,7 @@ function updateClock(){
     let ampm="AM";
 
 
-     if (h > 12) {
+     if (h > 12 && m > 0) {
         h = h - 12; //this line is for time-formate set by taking 12h rather than 24h
         /*ampm = "PM";*/
         document.getElementById("ampm").innerText="PM";
@@ -26,7 +26,7 @@ function updateClock(){
         document.querySelector(".text1").style.color="white";
         document.querySelector(".text2").style.color="white";
         document.querySelector(".text3").style.color="white";
-        document.querySelector(".content p").style.color= "red"; /*"rgb(255, 153, 0)";*/
+        document.querySelector(".content p").style.color= "red"; 
         document.querySelector(".content p").style.color= "red"; 
         document.querySelector(".content p").style.fontSize="31px";
         document.querySelector(".content p").style.letterSpacing="10px";
