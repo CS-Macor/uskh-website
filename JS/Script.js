@@ -55,6 +55,22 @@ function updateClock(){
 }
 updateClock();
 
+//Javascrip to creat Humberger Menu
+const menuEl = document.querySelector('.menu');
+const closeMenuEl = document.querySelector('.closeMenu');
+const openMenuEl = document.querySelector('.openMenu');
+
+openMenuEl.addEventListener('click', show);
+closeMenuEl.addEventListener('click', close);
+
+function show() {
+    menuEl.style.display = 'flex';
+    menuEl.style.top = '0';
+}
+function close() {
+    menuEl.style.top = '-105%';
+}
+
 // Jquery to click on button Previous and Next slide picture with pagination number
 $(document).ready(function () {
     var slider = $('.slider');
