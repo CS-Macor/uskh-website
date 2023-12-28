@@ -68,7 +68,7 @@ function show() {
     menuEl.style.top = '0';
 }
 function close() {
-    menuEl.style.top = '-110%';
+    menuEl.style.top = '-120%';
 }
 
 // Jquery to click on button Previous and Next slide picture with pagination number
