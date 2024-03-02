@@ -42,10 +42,12 @@ h2{
     color: rgb(255, 153, 0);
     text-shadow: 2px 2px 3px black;
     letter-spacing: 8px;
+    line-heigth: 1em;
     font-size: 16px;
     text-align: center;
     font-weight: bold;
-     font-family: "Moul", serif;
+    font-family: "Moul", serif;
+    
 
 }
 .clock{
