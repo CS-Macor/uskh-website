@@ -41,7 +41,7 @@ h2{
     text-transform: uppercase;
     color: rgb(255, 153, 0);
     text-shadow: 2px 2px 3px black;
-    letter-spacing: 8px;
+    letter-spacing: 0px;
     line-heigth: 2.5;
     font-size: 16px;
     text-align: center;
