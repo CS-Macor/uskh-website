@@ -32,8 +32,8 @@ body {
     align-items: center; 
 }
 .flag img{
-    width: 3%;
-    height: 3%;
+    width: 10%;
+    height: 10%;
     margin: 5px 5px;
 
 }
@@ -1114,3 +1114,4 @@ strong {
 .btn-send .send-message:active {
     transform: scale(0.95);
 }
+
